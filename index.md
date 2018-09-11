@@ -1,0 +1,96 @@
+# natdan135.github.io
+<html><head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Biryani|Libre+Barcode+39+Extended');
+body {
+    background-image: url("https://cdn.drawception.com/images/panels/2015/12-12/wY6O6Rnnr7-4.png");
+     }
+.header{
+	background-color: #66ccff;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Biryani', sans-serif;
+    border-style: solid;
+    border-width: 15px 20px 15px 20px;
+    border-color: #66ccff;
+    background-color: #66ccff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #66ccff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1{
+	font-family: 'Biryani', sans-serif;
+	text-align: left;
+    font-size: 54px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+
+	<h1>2018</h1>
+	<div class="dropdown">
+ 	 <span>Project 1</span>
+  	<div class="dropdown-content">
+ 	   <p>Effective Web Design</p>
+       <p>This project was, creating a web page with 250-500 words explaining how to make a good website. We did this using html 5 and CSS, making a website displaying the information and looking aesthetically pleasing.
+ 	 </p></div>
+	</div>
+
+	<div class="dropdown">
+ 	 <span>Project 2</span>
+  	<div class="dropdown-content">
+  	  <p>This project is making a self-designed environment, with a fully functional, "true" first person player.</p>
+		<p>Our project was to create a first person shooter, and we had a finite amount of time to do it as we were away for a few lessons and a certain person kept shutting down our PC during the unreal engine 4 download. We learnt the basics of coding in UE4, including adding variables, changing variables, animation and adding text and imagery to the HUD. We began by finding a suitable tutorial on YouTube, to learn how Unreal Engine 4 can be utilised to create a simple first person shooter, becoming more challenging as it went on. We worked through many videos, creating a functional player model and mapping controls to the skeleton. Some of the challenges we faced were downloading UE4 as it is a large installer and we had some ‘interruptions’ which delayed our efforts. At one point our project lost some progress but we managed to recover it swiftly with minimal hindrance to our workflow. To improve on our work next time we would try to work out things by ourselves before referring to the tutorial to “check our answers.”</p>  
+ 	<img src="Armour regeneration and HUD.PNG" alt="Armour regeneration">
+		<img src="Finding armour percent.PNG" alt="Finding armour percentage">
+		<img src="First person camera and damage area.PNG" alt="First person camera">
+		<img src="Take damage.PNG" alt="Take damage">
+	</div>
+	</div>
+
+	<div class="dropdown">
+ 	 <span>Project 3</span>
+ 	 <div class="dropdown-content">
+ 	   <p>Project report 3
+By Nathan
+	Introduction
+In this project I worked with Daniel to learn how to use Gamemaker Studio 2 to make a top down shooter game. We chose to learn Gamemaker Studio 2 because Unreal Engine 4 was too complicated and even though we hadn’t used Gms 2, it looked easier to learn and not have to follow tutorials for everything. This project took seven weeks and this included installing gamemaker, learning the basics, creating sprites and coding the game.
+
+	Using Gamemaker
+To make our top down shooter game we needed to first create sprites and a map. We created a single large sprite made of images to use as tiles for our map, we included all of the features we might need for a basic map, such as water, beaches, grasslands, bushes, stones and a few more. We made our map using this sprite as a resource for a tile map, painting layers of what we wanted our map to be, with grass, beaches and water on the bottom and stones, rocks and bushes on a layer above. We scrapped that map because we didn’t think it fit the theme of our game and we created a new, more basic grassy map with some trees which the player can walk under and be invisible. We them made a few sprites, including enemies, an animal, and a player, all from a top down view. We ended up remaking the player facing only one way, so it could just follow the mouse (which we didn’t get up to doing), and animating it so it looks like it is walking. Using code, we made it have the walking animation when moving and stop when it is not moving.
+
+	Movement
+We had a lot of trouble making movement for our second player model, after deleting our first player which moved easily. We followed a complicated, long tutorial for a good movement system but it didn’t work so we dug through and found the old way we did movement which worked first try after adding the player object, which includes the animated and non-animated sprites, to an instance layer of our map so it would act on the code we programmed. So far we only made it move using arrow keys but we will add wasd to the game after we finish with the basic content.
+
+	Conclusion/ future
+We plan on continuing this game as our next project because there is a lot we can add and change to make a good, playable, hopefully multiplayer game. Things we want to add are our player model looking at the mouse, guns, a story, crafting, AI enemies and much more. Some things we could have done better were have a clear plan from the start instead of reworking all of the visuals as we went along and creating too many features for us to code in a short amount of time. 
+Also, I missed about 4 lessons due to a bad sickness and an Outdoor Education camp.
+</p>
+ 	 </div>
+	</div>
+
+	<div class="dropdown">
+ 	 <span>Project 4</span>
+  	<div class="dropdown-content">
+  	  <p>Nothing Yet :(</p>
+ 	 </div>
+	</div>
+
+</div>
+
+
+
+</body></html>
